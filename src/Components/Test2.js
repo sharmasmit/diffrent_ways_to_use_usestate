@@ -7,6 +7,7 @@ function Test2() {
   return (
     <>
       <div className="parent">
+        <h1>Calculator</h1>
         <div className="child">
           <form>
             <div className="display">
@@ -123,6 +124,7 @@ function Test2() {
         </div>
 
         <Link to="/Test1">Back to Test1</Link>
+        <Link to="/Test3">Go to Test3 page</Link>
       </div>
     </>
   );
