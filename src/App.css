@@ -1,0 +1,83 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.Test1-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column
+}
+.plus-minus-box{
+  margin: 2rem 0rem;
+  background-color: burlywood;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  padding: 1rem;
+}
+.plus-minus-box button{
+  height: 2rem;
+  width: 2rem;
+  margin: 0.5rem;
+  background-color: black;
+  color: white;
+  border: 0;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.plus-minus-box button:hover{
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+}
+
+.parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+.child{
+  background-color: #040D12;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+}
+.child input {
+  color: white;
+  width: 5rem;
+  height: 5rem;
+  font-size: 1rem;
+  margin: 0.2rem;
+  border: none;
+  cursor: pointer;
+  background-color: #4D869C;
+  border-radius: 1rem;
+  font-weight: bolder;
+}
+.child .equal{
+  width: 10.4rem;
+}
+.child .display {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 5px 0px 15px 0px;
+}
+.child input[type= "text"]{
+  flex: 1;
+  background-color: #CDE8E5;
+  color: #040D12;
+  font-size: 1.6rem;
+  padding: 1rem;
+  text-align: right; 
+}
